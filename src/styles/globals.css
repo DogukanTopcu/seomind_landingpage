@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.changelogText {
+  font-family: 'Permanent Marker', cursive;
+  color: #FAFF00;
+  font-size: 20px;
+}
+.changelog {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+}
+.bgColorChangelog {
+  background: linear-gradient(90.46deg, #9FA466 -3.11%, #457FD7 32.88%, #B333C8 68.32%, #D52545 103.2%);
+  border: 1px solid white;
+  border-radius: 25px;
+  box-shadow: 0px 22.1995px 29.3033px rgba(108, 93, 211, 0.25);
+}
+.readChangelog {
+  background: #A2188A;
+  box-shadow: 0px 5px 20px rgba(75, 131, 251, 0.5);
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-family: "Nunito Sans", sans-serif;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* Navbar */
+.navbarTitle {
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  cursor: default;
+}
+.preAlfa {
+  border: 0.5px solid #3F8F00;
+  border-radius: 25px;
+  padding: 0px 10px;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+.preAlfa:hover {
+  background-color: #3F8F00;
+}
+.navText {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.waitlist { 
+  background: #65CFA9;
+  box-shadow: 0px 5px 20px rgba(101, 207, 169, 0.5);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.waitlist:hover{
+  box-shadow: 0px 4px 25px rgba(101, 207, 169, 1);
+}
+
+
+/* Hero */
+.elipses {
+  top: 200px;
+}
+
+.elipse {
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.329);
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+.elipse-1 {
+  position: absolute;
+  display: flex;
+  width: 90vw;
+  max-width: 90vw;
+  margin: auto;
+  height: 60vh;
+
+  z-index: 0;
+}
+.elipse-2 {
+  position: absolute;
+  display: flex;
+  width: 84vw;
+  max-width: 84vw;
+  margin: auto;
+  height: 54vh;
+
+  z-index: 10;
+}
+.elipse-3 {
+  position: absolute;
+  display: flex;
+  width: 78vw;
+  max-width: 78vw;
+  margin: auto;
+  height: 48vh;
+
+  z-index: 20;
+}
+
+.elipse-4 {
+  position: absolute;
+  display: flex;
+  width: 72vw;
+  max-width: 72vw;
+  margin: auto;
+  height: 42vh;
+
+  z-index: 20;
+}
+.genericText{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #415674;
+  font-size: 15px;
+}
+.mainTitle {
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(91.85deg, #AAB3C6 -7.75%, #FFFFFF 47.47%, #9CA5B9 107.63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 90px;
+  text-align: center;
+  line-height: 108px;
+}
+
+/* Usage */
+.box{
+  width: 176px;
+  height: 173px;
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+}
+.box1{
+  background: linear-gradient(134.78deg, #BFBD7B 4.87%, #B060AD 49.27%, #349B95 95.56%);
+}
+.box2 {
+  background: linear-gradient(136.64deg, #BC6C7F 3.68%, #4C9ABB 47.64%, #3FCD4D 92.52%);
+}
+.box3 {
+  background: linear-gradient(137.05deg, #93BA54 5.08%, #C16C51 50.32%, #A757B5 95.55%);
+}
+.box4 {
+  background: linear-gradient(134.02deg, #6BC7CD 0%, #8651BB 51.56%, #B3456D 100%);
+}
+
+.arrow{
+  width: 90px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainWaitlist {
+  margin: 16vh 0px;
+  background: linear-gradient(274.82deg, #000000 -15.33%, #696262 52.32%, #514242 117.2%);
+  border: 0.2px solid #FFFFFF;
+  border-radius: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 5px 15px;
+  box-shadow: 0px 4px 25px rgb(211, 211, 211, 0.3);
+  transition: all 0.3s ease;
+}
+.mainWaitlist:hover {
+  box-shadow: 0px 4px 25px rgb(211, 211, 211, 0.5);
+}
+
+
+
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #16abff33 0deg,
+    #0885ff33 55deg,
+    #54d6ff33 120deg,
+    #0071ff33 160deg,
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: conic-gradient(
+    #00000080,
+    #00000040,
+    #00000030,
+    #00000020,
+    #00000010,
+    #00000010,
+    #00000080
+  );
+
+  --callout-rgb: 238, 240, 241;
+  --callout-border-rgb: 172, 175, 176;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3)
+    );
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(
+      #ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80
+    );
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
