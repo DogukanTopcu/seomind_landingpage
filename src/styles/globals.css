@@ -27,11 +27,24 @@
   cursor: pointer;
   font-size: 12px;
 }
+.arrowChangelog {
+  margin-left: 20px;
+}
+.line{
+  border-bottom: 1px solid white;
+  position: relative;
+  width: 0px;
+
+  transition: all 0.3s ease;
+}
+.readChangelog:hover .line{
+  width: 20px;
+}
 
 /* Navbar */
 .navbarTitle {
   margin-left: 10px;
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Raleway', sans-serif;
   cursor: default;
 }
@@ -41,9 +54,12 @@
   padding: 0px 10px;
   cursor: default;
   transition: all 0.3s ease;
+  font-size: 10px;
+  color: #415674;
 }
 .preAlfa:hover {
   background-color: #3F8F00;
+  color: white;
 }
 .navText {
   font-family: "Raleway", sans-serif;
@@ -57,6 +73,7 @@
   cursor: pointer;
   font-weight: 500;
   transition: all 0.3s ease;
+  font-size: 12px;
 }
 .waitlist:hover{
   box-shadow: 0px 4px 25px rgba(101, 207, 169, 1);
@@ -144,6 +161,8 @@
 
   font-family: "Raleway", sans-serif;
   font-size: 24px;
+
+  padding: 2px;
 }
 .box1{
   background: linear-gradient(134.78deg, #BFBD7B 4.87%, #B060AD 49.27%, #349B95 95.56%);
