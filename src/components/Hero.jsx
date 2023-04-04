@@ -19,13 +19,15 @@ const Usage = () => {
 
 const Hero = () => {
   return (
-    <div>
+    <div className='mt-20'>
+
       <div className='elipses absolute flex justify-center items-center mt-72 left-0 w-screen z-0'>
         <div className='elipse elipse-1'></div>
         <div className='elipse elipse-2'></div>
         <div className='elipse elipse-3'></div>
         <div className='elipse elipse-4'></div>
       </div>
+      
       <div className='flex justify-center flex-col items-center mt-12 relative z-10'>
         <h2 className='genericText'>STARTUP CENTRIC ALL IN ONE</h2>
         <h1 className='mainTitle'>Seo Management Software</h1>
